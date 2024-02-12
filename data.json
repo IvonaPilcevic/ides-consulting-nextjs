@@ -1,0 +1,113 @@
+{
+    "cards": [
+        {
+            "id": 0,
+            "title": "Solutions to intelligently control your digital supply chain",
+            "text": "Know sooner. Act faster. Remove waste.",
+            "button": "More",
+            "image": "/images/kinaxis.png",
+            "label": "business management",
+            "slug": "kinaxis"
+        },
+        {
+            "id": 1,
+            "title": "We have the right cloud erp for you",
+            "text": "Your company is growing quickly. But to keep it growing quickly and profitably, you need a solution that's highly configurable – to meet your exact business needs – and flexible enough to adapt as your needs change.",
+            "button": "More",
+            "image": "/images/sap.png",
+            "label": "business management",
+            "slug": "sap"
+        },
+        {
+            "id": 2,
+            "title": "Solutions to intelligently control your digital supply chain",
+            "text": "Know sooner. Act faster. Remove waste.",
+            "button": "More",
+            "image": "/images/tungsten.png",
+            "label": "content management",
+            "slug": "tungsten"
+        },
+        {
+            "id": 3,
+            "title": "HPE announces new AI and hybrid cloud solutions",
+            "text": "Introducing full-stack AI-native architecture that accelerates development and deployment of AI models",
+            "button": "More",
+            "image": "/images/hawlett.png",
+            "label": "infrastructure management",
+            "slug": "hewlett"
+        },
+        {
+            "id": 4,
+            "title": "ECM and BPM",
+            "text": "Our software helps you save money by accelerating and digitizing your paper-based processes. It also ensures that your documents are archived in a legally compliant way – without creating expensive orphaned records.",
+            "button": "More",
+            "image": "/images/img5.jpg",
+            "label": "ECM and BPM",
+            "slug": "saperion"
+        }
+    ],
+    "pages": {
+        "kinaxis": [
+            {
+                "sidebar": "topic 1 kinaxis",
+                "title": " 1 title kinaxis",
+                "text": "kinaxis topic 1 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>h2</h2> <h3>h3</h3> <h4>h4</h4> <ul>lists: <li>item1</li> <li>item2</li></ul> etc",
+                "background": "/images/hero.jpg"
+            },
+            {
+                "sidebar": "topic 2 kinaxis",
+                "title": "topic 2 title kinaxis",
+                "text": "topic 2 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/img1.jpeg"
+            }
+        ],
+        "sap": [
+            {
+                "sidebar": "topic 1 sap",
+                "title": "topic 1 title sap",
+                "text": "topic 1 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/hero.jpg"
+            },
+            {
+                "sidebar": "topic 2 sap",
+                "title": "topic 2 title sap",
+                "text": "topic 2 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/hero.jpg"
+            }
+        ],
+        "tungsten": [
+            {
+                "sidebar": "topic 1 tungsten",
+                "title": "topic 1 title tungsten",
+                "text": "topic 1 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/hero.jpg"
+            },
+            {
+                "sidebar": "topic 2 tungsten",
+                "title": "topic 2 title tungsten",
+                "text": "topic 2 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/hero.jpg"
+            }
+        ],
+        "hewlett": [
+            {
+                "sidebar": "topic 1 hewlett",
+                "title": "topic 1 title 1 hewlett",
+                "text": "topic 1 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/hero.jpg"
+            },
+            {
+                "sidebar": "topic 2 1 hewlett",
+                "title": "topic 2 title1 hewlett",
+                "text": "topic 2 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/hero.jpg"
+            },
+            {
+                "sidebar": "topic 3 1 hewlett",
+                "title": "topic 3 title1 hewlett",
+                "text": "topic 3 text, in html so you can use <b>bold</b> or <i>italic</i> fonts, and also add <br> new lines. You can also have <h2>subheading</h2>",
+                "background": "/images/hero.jpg"
+            }
+        ]
+    }
+}
