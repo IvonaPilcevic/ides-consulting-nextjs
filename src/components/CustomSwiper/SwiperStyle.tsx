@@ -29,7 +29,7 @@ export const StyledSlideThumb = styled.div`
 export const ThumbSlideText = styled.p`
   text-align: left;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 13px;
   margin-top: 20px;
@@ -73,20 +73,23 @@ export const ThumbsLogo = styled.div<{ img: string }>`
   }
 `;
 
-export const StyledSlide = styled.div`
+export const StyledSlide = styled.div<{ background: string }>`
   width: 100%;
   height: 100%;
   max-height: 100%;
   overflow: hidden;
   position: relative;
-  background: transparent;
+  background-image: url(${(props) => `${props.background}`});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 export const SlideContent = styled.div`
   position: absolute;
-  top: 40%;
-  left: 28%;
+  top: 45%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  max-width: 40%;
+  max-width: 41%;
   text-align: left;
 
   @media screen and (max-width: 1000px) {
@@ -99,9 +102,9 @@ export const SlideContent = styled.div`
 export const SlideTitle = styled.p`
   color: white;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 42px;
   text-align: left;
-  font-weight: 900;
+  font-weight: 700;
   @media screen and (max-width: 1000px) {
     font-size: 20px;
   }
@@ -125,8 +128,8 @@ export const SlideLogo = styled.div<{ img: string }>`
 export const SlideText = styled.p`
   color: white;
   text-align: left;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 400;
   margin-top: 20px;
   @media screen and (max-width: 1000px) {
     font-size: 15px;

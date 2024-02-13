@@ -7,7 +7,7 @@ const Page = (props) => {
 };
 
 export async function getStaticPaths() {
-  const paths = ["/kinaxis", "/sap", "/tungsten", "/hewlett"];
+  const paths = data?.paths;
   return {
     paths,
     fallback: false,

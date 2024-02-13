@@ -102,8 +102,6 @@ swiper-container {
   height: 100vh;
   overflow: hidden;
   --swiper-navigation-top-offset: 85%;
-  padding-right: 30px;
-  padding-left: 30px;
 }
 
 swiper-slide {
@@ -126,19 +124,16 @@ swiper-container {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  background: transparent;
 }
 
 swiper-slide {
   background-size: cover;
   background-position: center;
-  background: transparent;
 }
 
 .mySwiper {
   height: 100vh;
   width: 100%;
-  background: transparent;
 }
 
 .mySwiper2 {

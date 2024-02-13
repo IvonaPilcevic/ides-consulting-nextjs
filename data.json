@@ -7,7 +7,8 @@
             "button": "More",
             "image": "/images/kinaxis.png",
             "label": "business management",
-            "slug": "kinaxis"
+            "slug": "kinaxis",
+            "background": "/images/hero.jpg"
         },
         {
             "id": 1,
@@ -16,7 +17,8 @@
             "button": "More",
             "image": "/images/sap.png",
             "label": "business management",
-            "slug": "sap"
+            "slug": "sap",
+            "background": "/images/img1.jpeg"
         },
         {
             "id": 2,
@@ -25,7 +27,8 @@
             "button": "More",
             "image": "/images/tungsten.png",
             "label": "content management",
-            "slug": "tungsten"
+            "slug": "tungsten",
+            "background": "/images/img2.jpeg"
         },
         {
             "id": 3,
@@ -34,7 +37,8 @@
             "button": "More",
             "image": "/images/hawlett.png",
             "label": "infrastructure management",
-            "slug": "hewlett"
+            "slug": "hewlett",
+            "background": "/images/hero.jpg"
         },
         {
             "id": 4,
@@ -43,7 +47,8 @@
             "button": "More",
             "image": "/images/img5.jpg",
             "label": "ECM and BPM",
-            "slug": "saperion"
+            "slug": "saperion",
+            "background": "/images/hero.jpg"
         }
     ],
     "pages": {
@@ -109,5 +114,11 @@
                 "background": "/images/hero.jpg"
             }
         ]
-    }
+    },
+    "paths": [
+        "/kinaxis",
+        "/sap",
+        "/tungsten",
+        "/hewlett"
+    ]
 }

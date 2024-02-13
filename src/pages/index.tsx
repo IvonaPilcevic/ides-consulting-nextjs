@@ -1,14 +1,14 @@
 import CustomSwiper from "@/components/CustomSwiper/CustomSwiper";
 import { register } from "swiper/element/bundle";
+import styled from "@emotion/styled";
 register();
 
 import data from "../../data.json";
-import styled from "@emotion/styled";
 
 export const Logo = styled.div`
   position: absolute;
-  top: 5%;
-  left: 7%;
+  top: 3%;
+  left: 9%;
   width: 220px;
   height: 60px;
   background-image: url("/images/logo.png");
@@ -18,18 +18,11 @@ export const Logo = styled.div`
   z-index: 30;
 `;
 
-export const Container = styled.div`
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/images/hero.jpg");
-`;
-
 export default function Home() {
   return (
-    <Container>
+    <div>
       <Logo />
       <CustomSwiper cards={data.cards} />
-    </Container>
+    </div>
   );
 }

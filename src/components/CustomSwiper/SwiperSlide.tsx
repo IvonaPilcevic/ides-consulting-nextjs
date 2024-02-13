@@ -33,9 +33,10 @@ export const SwiperSlide: React.FC<{
   buttonText: string;
   slug: string;
   img: string;
-}> = ({ title, text, buttonText, slug, img }) => {
+  background: string;
+}> = ({ title, text, buttonText, slug, img, background }) => {
   return (
-    <StyledSlide>
+    <StyledSlide background={background}>
       <SlideContent>
         <SlideLogo img={img} />
         <SlideTitle>{title}</SlideTitle>

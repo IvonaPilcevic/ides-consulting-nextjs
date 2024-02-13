@@ -62,6 +62,7 @@ const CustomSwiper = ({ cards }) => {
         loop="true"
         init="false"
         ref={swiperRef}
+        effect="fade"
       >
         {cards.map((card) => (
           <swiper-slide key={card.id}>
@@ -71,6 +72,7 @@ const CustomSwiper = ({ cards }) => {
               buttonText={card.button}
               slug={card.slug}
               img={card.image}
+              background={card.background}
             />
           </swiper-slide>
         ))}
