@@ -120,5 +120,19 @@
         "/sap",
         "/tungsten",
         "/hewlett"
+    ],
+    "menu": [
+        {
+            "href": "/",
+            "label": "Home"
+        },
+        {
+            "href": "/services",
+            "label": "Services"
+        },
+        {
+            "href": "/contact",
+            "label": "Contact"
+        }
     ]
 }

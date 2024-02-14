@@ -9,6 +9,8 @@ import {
 } from "./SidebarStyle";
 import { useRouter } from "next/router";
 import styled from "@emotion/styled";
+import data from "../../../data.json";
+import Link from "next/link";
 
 export const Sidebar: React.FC<{ list: any; setActiveItemHandler: any }> = ({
   list,
@@ -38,11 +40,19 @@ export const MobileSidebar: React.FC<{
   return (
     <MobileSidebarContainer>
       <CloseIcon onClick={toggleSidebar} />
-      <SidebarTitle onClick={() => router.back()}>&#x2190; home</SidebarTitle>
+      {/* <SidebarTitle onClick={() => router.back()}>&#x2190; home</SidebarTitle> */}
       {list.map((item: any, i: number) => (
         <React.Fragment key={i}>
           <SidebarList key={item.href} onClick={() => setActiveItemHandler(i)}>
             {item}
+          </SidebarList>
+        </React.Fragment>
+      ))}
+
+      {data.menu.map((item, i) => (
+        <React.Fragment key={i + 17}>
+          <SidebarList>
+            <Link href={item.href}>{item.label}</Link>
           </SidebarList>
         </React.Fragment>
       ))}
