@@ -1,7 +1,8 @@
+import { Container } from "@/components/Contact/ContactStyle";
 import React from "react";
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return <Container>Contact</Container>;
 };
 
 export default Contact;
